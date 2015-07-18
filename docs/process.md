@@ -32,7 +32,7 @@ You can use values from config and from htmlbuild's option's data as globals.
 
 ```javascript
 grunt.initConfig({
-	pkg = grunt.file.readJSON("package.json"),
+	pkg: grunt.file.readJSON("package.json"),
 
     htmlbuild: {
         src: 'index.html',
